@@ -5,3 +5,4 @@
 5. 调用初始化函数以初始化烟雾传感器<AdpdInit()>
 6. 调用数据读取函数以获得当前烟雾传感器数据<SmokeData_Status = Smoke_Dataread(temp_data,&data_BluePTR, &data_IRPTR, &data_Ratio)> (其中temp_data为环境温度)
 7. 调用数据读取函数的同时将返回当前烟雾数据/传感器状态<SmokeData_Status>
+8. 
